@@ -1,0 +1,43 @@
+.cabecalhoProjetos {
+    display: grid;
+    gap: 1rem;
+}
+
+.tituloProjetos {
+    color: var(--azul-escuro);
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.descricaoProjetos {
+    max-width: 56rem;
+    color: rgba(4, 24, 51, 0.78);
+    font-size: 1.05rem;
+    line-height: 1.7rem;
+}
+
+.listaProjetos {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 744px) {
+    .cabecalhoProjetos {
+        gap: .85rem;
+    }
+
+    .tituloProjetos {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .descricaoProjetos {
+        font-size: .98rem;
+        line-height: 1.6rem;
+    }
+
+    .listaProjetos {
+        margin-top: 1.5rem;
+    }
+}

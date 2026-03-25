@@ -1,0 +1,47 @@
+.cardConhecimento {
+    background: linear-gradient(180deg, #ffffff 0%, #f4f8ff 100%);
+    border: 1px solid rgba(24, 117, 232, 0.12);
+    border-radius: 1rem;
+    box-shadow: 0 12px 30px rgba(4, 24, 51, 0.08);
+    padding: 1.5rem;
+}
+
+.categoria {
+    color: var(--azul-escuro);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.listaConhecimentos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+}
+
+.tagConhecimento {
+    background-color: rgba(24, 117, 232, 0.1);
+    border: 1px solid rgba(24, 117, 232, 0.18);
+    border-radius: 999px;
+    color: var(--azul-escuro);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .625rem 1rem;
+}
+
+@media (max-width: 744px) {
+    .cardConhecimento {
+        padding: 1rem;
+    }
+
+    .categoria {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    .tagConhecimento {
+        font-size: .95rem;
+        padding: .55rem .85rem;
+    }
+}

@@ -5,35 +5,36 @@ import getPostCategory from "utils/getPostCategory";
 
 const sectionOrder = ["Front-end", "Back-end", "DevOps", "Metodologias ágeis e práticas"];
 
-export default function inicio () {
-    const groupedPosts = sectionOrder
-        .map((categoria) => ({
-            categoria,
-            posts: posts.filter((post) => getPostCategory(post.id) === categoria)
+function groupPostsBySection() {
+    return sectionOrder
+        .map((category) => ({
+            category,
+            posts: posts.filter((post) => getPostCategory(post.id) === category)
         }))
-        .filter((grupo) => grupo.posts.length > 0);
+        .filter((group) => group.posts.length > 0);
+}
+
+export default function Inicio() {
+    const groupedPosts = groupPostsBySection();
 
     return (
         <div className={styles.secoes}>
-            {groupedPosts.map((grupo) => (
-                <section key={grupo.categoria} className={styles.secao}>
+            {groupedPosts.map((group) => (
+                <section key={group.category} className={styles.secao}>
                     <div className={styles.secaoCabecalho}>
                         <span className={styles.secaoSelo}>Conteudos</span>
-                        <h2 className={styles.secaoTitulo}>{grupo.categoria}</h2>
+                        <h2 className={styles.secaoTitulo}>{group.category}</h2>
                     </div>
 
                     <ul className={styles.posts}>
-                        {grupo.posts.map((post) => (
+                        {group.posts.map((post) => (
                             <li key={post.id} className={styles.item}>
-                                <PostCard post={post}/>
+                                <PostCard post={post} />
                             </li>
                         ))}
                     </ul>
                 </section>
             ))}
         </div>
-    )
+    );
 }
-
-
-/** import './Inicio.module.css'; In div use className='nameClass' */

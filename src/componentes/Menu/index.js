@@ -1,8 +1,8 @@
-import styles from './Menu.module.css'; 
+import styles from './Menu.module.css';
 import { Link } from "react-router-dom";
 import MenuLink from '../MenuLink';
 
-export default function Menu () {
+export default function Menu() {
     return (
         <header className={styles.cabecalho}>
             <nav className={styles.navegacao}>
@@ -16,14 +16,12 @@ export default function Menu () {
                 </Link>
 
                 <div className={styles.links}>
-                    <MenuLink to="/">
-                        Início
-                    </MenuLink>
-                    <MenuLink to="/sobremim">
-                        Sobre Mim
-                    </MenuLink>
+                    <MenuLink to="/">Início</MenuLink>
+                    <MenuLink to="/sobremim">Sobre Mim</MenuLink>
+                    <MenuLink to="/conhecimentos">Conhecimentos</MenuLink>
+                    <MenuLink to="/projetos">Projetos</MenuLink>
                 </div>
             </nav>
         </header>
-    )
+    );
 }
