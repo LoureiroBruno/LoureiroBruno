@@ -10,7 +10,7 @@ Use este arquivo como base para o `README.md` do repositório `LoureiroBruno/Lou
 </p>
 
 <p align="center">
-  <a href="https://main--glowing-toffee-24fc65.netlify.app/">Portfólio</a>
+  <a href="https://glittering-beignet-c7f54e.netlify.app/">Portfólio</a>
   ·
   <a href="https://github.com/LoureiroBruno?tab=repositories">Repositórios</a>
 </p>
@@ -73,7 +73,7 @@ Sou desenvolvedor full stack e gosto de construir produtos com foco em:
 Portfólio pessoal desenvolvido em React com banner profissional, grid de posts ilustrados e páginas de detalhe em Markdown.
 
 - Repositório: https://github.com/LoureiroBruno/LoureiroBruno
-- Deploy: https://main--glowing-toffee-24fc65.netlify.app/
+- Deploy: https://glittering-beignet-c7f54e.netlify.app/
 
 ## Estatísticas
 
@@ -85,7 +85,7 @@ Portfólio pessoal desenvolvido em React com banner profissional, grid de posts 
 ## Contato
 
 - GitHub: https://github.com/LoureiroBruno
-- Portfólio: https://main--glowing-toffee-24fc65.netlify.app/
+- Portfólio: https://glittering-beignet-c7f54e.netlify.app/
 ```
 
 ## Como usar

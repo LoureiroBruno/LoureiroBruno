@@ -1,7 +1,7 @@
 # Bruno Loureiro | Portfólio Full Stack
 
 <p align="center">
-  <a href="https://main--glowing-toffee-24fc65.netlify.app/">Acessar portfólio publicado</a>
+  <a href="https://glittering-beignet-c7f54e.netlify.app/">Acessar portfólio publicado</a>
 </p>
 
 <p align="center">
@@ -109,6 +109,6 @@ Além das tecnologias usadas neste projeto, este README também destaca conhecim
 
 Projeto publicado em:
 
-- https://main--glowing-toffee-24fc65.netlify.app/
+- https://glittering-beignet-c7f54e.netlify.app/
 
 Para deploys no Netlify com **React Router**, o repositório já inclui o fallback de SPA via arquivo `_redirects`.
