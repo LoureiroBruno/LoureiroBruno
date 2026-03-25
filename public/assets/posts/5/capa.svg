@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="0.5" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 110) rotate(90) scale(140 240)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 120) rotate(90) scale(170 200)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)" opacity="0.72"/>
+  <rect width="1200" height="630" fill="url(#glowB)" opacity="0.7"/>
+  <text x="54" y="331" fill="white" font-family="Georgia, serif" font-size="84" font-weight="700">Variaveis CSS</text>
+  <text x="54" y="388" fill="#FFFFFF" fill-opacity="0.95" font-family="Arial, sans-serif" font-size="34" font-weight="500">tema, reutilizacao e consistencia</text>
+  <text x="54" y="578" fill="#FFFFFF" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2.4">OLA-MUNDO</text>
+  <rect x="662" y="49" width="483" height="533" rx="36" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <g transform="translate(705 112)">
+    
+      <rect x="54" y="78" width="332" height="234" rx="28" fill="#eff6ff" opacity="0.96"/>
+      <rect x="54" y="78" width="332" height="38" rx="28" fill="#dbeafe" opacity="0.96"/>
+      <circle cx="84" cy="97" r="6" fill="#93c5fd"/><circle cx="102" cy="97" r="6" fill="#93c5fd"/><circle cx="120" cy="97" r="6" fill="#93c5fd"/>
+      <text x="84" y="154" fill="#1e3a8a" font-family="Courier New, monospace" font-size="26" font-weight="700">:root {</text>
+      <text x="106" y="194" fill="#1d4ed8" font-family="Courier New, monospace" font-size="24">--primary: #2563eb;</text>
+      <text x="106" y="228" fill="#1d4ed8" font-family="Courier New, monospace" font-size="24">--accent: #38bdf8;</text>
+      <text x="106" y="262" fill="#1d4ed8" font-family="Courier New, monospace" font-size="24">--text: #0f172a;</text>
+      <text x="84" y="296" fill="#1e3a8a" font-family="Courier New, monospace" font-size="26" font-weight="700">}</text>
+      <rect x="320" y="150" width="50" height="50" rx="14" fill="#2563eb"/>
+      <rect x="320" y="212" width="50" height="50" rx="14" fill="#38bdf8"/>
+    
+  </g>
+</svg>

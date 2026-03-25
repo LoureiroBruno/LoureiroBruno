@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.5" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 110) rotate(90) scale(140 240)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 120) rotate(90) scale(170 200)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)" opacity="0.72"/>
+  <rect width="1200" height="630" fill="url(#glowB)" opacity="0.7"/>
+  <text x="54" y="331" fill="white" font-family="Georgia, serif" font-size="84" font-weight="700">Kubernetes</text>
+  <text x="54" y="388" fill="#FFFFFF" fill-opacity="0.95" font-family="Arial, sans-serif" font-size="34" font-weight="500">orquestracao em escala</text>
+  <text x="54" y="578" fill="#FFFFFF" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2.4">OLA-MUNDO</text>
+  <rect x="662" y="49" width="483" height="533" rx="36" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <g transform="translate(705 112)">
+    
+      <circle cx="220" cy="194" r="108" fill="#eff6ff" opacity="0.95"/>
+      <circle cx="220" cy="194" r="82" fill="none" stroke="#1d4ed8" stroke-width="16"/>
+      <circle cx="220" cy="194" r="24" fill="#1d4ed8"/>
+      <g stroke="#1d4ed8" stroke-width="10" stroke-linecap="round">
+        <line x1="220" y1="88" x2="220" y2="132"/>
+        <line x1="220" y1="256" x2="220" y2="300"/>
+        <line x1="114" y1="194" x2="158" y2="194"/>
+        <line x1="282" y1="194" x2="326" y2="194"/>
+        <line x1="145" y1="119" x2="176" y2="150"/>
+        <line x1="264" y1="238" x2="295" y2="269"/>
+        <line x1="145" y1="269" x2="176" y2="238"/>
+        <line x1="264" y1="150" x2="295" y2="119"/>
+      </g>
+      <g fill="#93c5fd" opacity="0.92">
+        <circle cx="220" cy="78" r="18"/><circle cx="220" cy="310" r="18"/><circle cx="104" cy="194" r="18"/><circle cx="336" cy="194" r="18"/>
+        <circle cx="138" cy="112" r="18"/><circle cx="302" cy="276" r="18"/><circle cx="138" cy="276" r="18"/><circle cx="302" cy="112" r="18"/>
+      </g>
+      <g fill="#dbeafe" opacity="0.9">
+        <rect x="354" y="112" width="70" height="26" rx="13"/>
+        <rect x="366" y="152" width="88" height="26" rx="13"/>
+        <rect x="340" y="194" width="96" height="26" rx="13"/>
+      </g>
+    
+  </g>
+</svg>

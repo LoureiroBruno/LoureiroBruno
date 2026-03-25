@@ -1,0 +1,124 @@
+.fotoSobreMim {
+    margin-bottom: .5rem;
+    margin-left: 1.5rem;
+    width: 40vw;
+    float: right;
+}
+
+.subtitulo {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.paragrafo {
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.secaoConhecimentos {
+    margin-top: 3.5rem;
+}
+
+.tituloConhecimentos {
+    color: var(--azul-escuro);
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cardsConhecimentos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.cardConhecimento {
+    background: linear-gradient(180deg, #ffffff 0%, #f4f8ff 100%);
+    border: 1px solid rgba(24, 117, 232, 0.12);
+    border-radius: 1rem;
+    box-shadow: 0 12px 30px rgba(4, 24, 51, 0.08);
+    padding: 1.5rem;
+}
+
+.categoria {
+    color: var(--azul-escuro);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.listaConhecimentos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+}
+
+.tagConhecimento {
+    background-color: rgba(24, 117, 232, 0.1);
+    border: 1px solid rgba(24, 117, 232, 0.18);
+    border-radius: 999px;
+    color: var(--azul-escuro);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .625rem 1rem;
+}
+
+@media (max-width: 1100px) {
+    .fotoSobreMim {
+        float: none;
+        display: block;
+        margin: 0 auto 2rem;
+        width: 70vw;
+    }
+
+    .paragrafo {
+        margin-bottom: 2rem;
+    }
+
+    .cardsConhecimentos {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 744px) {
+    .fotoSobreMim {
+        width: 100%;
+    }
+
+    .subtitulo {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .paragrafo {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+    .secaoConhecimentos {
+        margin-top: 2.5rem;
+    }
+
+    .tituloConhecimentos {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .cardConhecimento {
+        padding: 1rem;
+    }
+
+    .categoria {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    .tagConhecimento {
+        font-size: .95rem;
+        padding: .55rem .85rem;
+    }
+}

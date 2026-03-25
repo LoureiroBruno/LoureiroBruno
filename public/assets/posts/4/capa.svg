@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1c1330"/>
+      <stop offset="0.5" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 110) rotate(90) scale(140 240)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 120) rotate(90) scale(170 200)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)" opacity="0.72"/>
+  <rect width="1200" height="630" fill="url(#glowB)" opacity="0.7"/>
+  <text x="54" y="331" fill="white" font-family="Georgia, serif" font-size="84" font-weight="700">Sprite 2D</text>
+  <text x="54" y="388" fill="#FFFFFF" fill-opacity="0.95" font-family="Arial, sans-serif" font-size="34" font-weight="500">arte e animacao para jogos</text>
+  <text x="54" y="578" fill="#FFFFFF" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2.4">OLA-MUNDO</text>
+  <rect x="662" y="49" width="483" height="533" rx="36" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <g transform="translate(705 112)">
+    
+      <rect x="62" y="70" width="304" height="248" rx="28" fill="#ecfeff" opacity="0.95"/>
+      <g stroke="#a5f3fc" stroke-width="4" opacity="0.9">
+        <line x1="138" y1="70" x2="138" y2="318"/>
+        <line x1="214" y1="70" x2="214" y2="318"/>
+        <line x1="290" y1="70" x2="290" y2="318"/>
+        <line x1="62" y1="152" x2="366" y2="152"/>
+        <line x1="62" y1="234" x2="366" y2="234"/>
+      </g>
+      <g transform="translate(84 94)">
+        <rect x="0" y="0" width="32" height="32" rx="8" fill="#0f172a"/>
+        <rect x="6" y="6" width="8" height="8" fill="#fde047"/>
+        <rect x="18" y="6" width="8" height="8" fill="#fde047"/>
+        <rect x="10" y="18" width="12" height="8" fill="#fb7185"/>
+      </g>
+      <g transform="translate(160 94)">
+        <rect x="0" y="0" width="32" height="32" rx="8" fill="#0f172a"/>
+        <rect x="8" y="4" width="8" height="8" fill="#fde047"/>
+        <rect x="20" y="8" width="8" height="8" fill="#fde047"/>
+        <rect x="10" y="18" width="12" height="8" fill="#fb7185"/>
+      </g>
+      <g transform="translate(236 94)">
+        <rect x="0" y="0" width="32" height="32" rx="8" fill="#0f172a"/>
+        <rect x="10" y="6" width="8" height="8" fill="#fde047"/>
+        <rect x="22" y="6" width="8" height="8" fill="#fde047"/>
+        <rect x="6" y="18" width="20" height="8" fill="#fb7185"/>
+      </g>
+      <g transform="translate(142 214)">
+        <path d="M0 40 L24 0 L48 40 Z" fill="#14b8a6"/>
+        <circle cx="24" cy="18" r="6" fill="#ecfeff"/>
+      </g>
+    
+  </g>
+</svg>
