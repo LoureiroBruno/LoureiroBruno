@@ -45,6 +45,68 @@ const conhecimentos = [
     }
 ];
 
+const projetos = [
+    {
+        titulo: "Hub - Sistema de Inscrições",
+        organizacao: "Escola de Saúde Pública do Ceará",
+        descricao: [
+            "Participei do desenvolvimento do Hub, um sistema web interno criado para gerenciar processos de inscrição da Escola de Saúde Pública do Ceará, com foco em eventos institucionais, residências médica e multiprofissional, bolsas de pesquisa e ações de extensão.",
+            "A solução surgiu para atender demandas específicas que não eram contempladas por ferramentas genéricas ou pelos sistemas institucionais já existentes, incluindo autenticação por CPF e e-mail, envio de documentação obrigatória, geração de protocolo e acompanhamento completo da inscrição.",
+            "Desde sua concepção, o sistema foi pensado para evolução contínua e futuras implementações, permitindo ampliação de funcionalidades conforme novas demandas institucionais surgissem. Essa visão de crescimento favoreceu o aprimoramento da plataforma ao longo do tempo, com espaço para integrações, novos fluxos operacionais e recursos adicionais voltados à gestão educacional."
+        ],
+        destaques: [
+            "Inscrição com autenticação via CPF e e-mail.",
+            "Upload e controle de documentação obrigatória.",
+            "Geração de protocolo e status de inscrição.",
+            "Acompanhamento completo do processo pelo candidato.",
+            "Integração com outros sistemas internos por meio de APIs RESTful."
+        ],
+        resultados: [
+            "Padronização e rastreabilidade do processo de inscrição de ponta a ponta.",
+            "Exportação e alimentação de dados para os painéis CISEC voltados à transparência e à tomada de decisão.",
+            "Base preparada para evolução funcional, acompanhando novas necessidades da instituição e a expansão do sistema para outros contextos acadêmicos e operacionais."
+        ],
+        linkLabel: "Painéis CISEC",
+        linkUrl: "https://cisec.esp.ce.gov.br/",
+        stacks: ["Laravel", "Node.js", "APIs REST", "MySQL", "Docker"]
+    },
+    {
+        titulo: "Portal PCCE - Links, Manuais e Contatos",
+        organizacao: "Polícia Civil do Estado do Ceará",
+        descricao: [
+            "Atuei no desenvolvimento de um portal interno criado como ponto único de acesso a sistemas, manuais, tutoriais e contatos institucionais da Polícia Civil do Estado do Ceará.",
+            "O objetivo foi reduzir a dispersão de links e padronizar a comunicação interna, oferecendo às áreas operacionais um ambiente mais direto para localizar recursos, abrir chamados e consultar contatos de apoio."
+        ],
+        destaques: [
+            "Centralização de links, sistemas e materiais de apoio.",
+            "Acesso facilitado a GLPI, manuais e contatos institucionais.",
+            "Redução de dúvidas recorrentes e ganho de autonomia para equipes internas.",
+            "Comunicação mais padronizada entre áreas e unidades."
+        ],
+        stacks: ["Laravel", "Docker", "Intranet", "PHP"]
+    },
+    {
+        titulo: "SGR - Sistema de Gerenciamento de Acessos",
+        organizacao: "Polícia Civil do Estado do Ceará",
+        descricao: [
+            "Desenvolvi o SGR, um sistema web em Laravel criado para centralizar o gerenciamento de acessos a sistemas legados desenvolvidos em diferentes tecnologias.",
+            "A ferramenta foi construída para reduzir intervenções manuais em múltiplos sistemas, concentrando em um único painel tarefas como cadastro de usuários, redefinição de senha, desbloqueio de contas e concessão de permissões."
+        ],
+        destaques: [
+            "Cadastro e gerenciamento de usuários por matrícula ou nome.",
+            "Painel único para administrar acessos em diferentes sistemas legados.",
+            "Bloqueio automático de contas de usuários desligados.",
+            "Redefinição e desbloqueio centralizados de senhas.",
+            "Registro de logs e trilhas de auditoria."
+        ],
+        resultados: [
+            "Mais eficiência, segurança e padronização no controle de acessos institucionais.",
+            "Redução do tempo de resposta das equipes de suporte em rotinas operacionais."
+        ],
+        stacks: ["Laravel", "Docker", "Auditoria", "Controle de acesso"]
+    }
+];
+
 export default function SobreMim() {
     return (
         <PostModelo
@@ -133,6 +195,81 @@ export default function SobreMim() {
                                     </li>
                                 ))}
                             </ul>
+                        </article>
+                    ))}
+                </div>
+            </section>
+
+            <section className={styles.secaoProjetos}>
+                <h4 className={styles.tituloProjetos}>Projetos em que participei</h4>
+                <p className={styles.descricaoProjetos}>
+                    A seguir estão alguns projetos que marcaram minha trajetória profissional,
+                    envolvendo desenvolvimento de sistemas internos, integrações institucionais,
+                    padronização de processos e melhoria da experiência de uso para equipes e usuários finais.
+                </p>
+
+                <div className={styles.listaProjetos}>
+                    {projetos.map((projeto) => (
+                        <article key={projeto.titulo} className={styles.cardProjeto}>
+                            <div className={styles.topoProjeto}>
+                                <span className={styles.seloProjeto}>Projeto</span>
+                                <span className={styles.organizacaoProjeto}>{projeto.organizacao}</span>
+                            </div>
+
+                            <h5 className={styles.tituloProjeto}>{projeto.titulo}</h5>
+
+                            <div className={styles.textosProjeto}>
+                                {projeto.descricao.map((texto) => (
+                                    <p key={texto} className={styles.paragrafoProjeto}>
+                                        {texto}
+                                    </p>
+                                ))}
+                            </div>
+
+                            <div className={styles.blocoProjeto}>
+                                <h6 className={styles.subtituloProjeto}>Principais entregas</h6>
+                                <ul className={styles.listaProjeto}>
+                                    {projeto.destaques.map((item) => (
+                                        <li key={item} className={styles.itemProjeto}>
+                                            {item}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+
+                            {projeto.resultados ? (
+                                <div className={styles.blocoProjeto}>
+                                    <h6 className={styles.subtituloProjeto}>Resultados</h6>
+                                    <ul className={styles.listaProjeto}>
+                                        {projeto.resultados.map((item) => (
+                                            <li key={item} className={styles.itemProjeto}>
+                                                {item}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            ) : null}
+
+                            {projeto.linkUrl ? (
+                                <p className={styles.linkProjetoLinha}>
+                                    <a
+                                        className={styles.linkProjeto}
+                                        href={projeto.linkUrl}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        {projeto.linkLabel}
+                                    </a>
+                                </p>
+                            ) : null}
+
+                            <div className={styles.tagsProjeto}>
+                                {projeto.stacks.map((stack) => (
+                                    <span key={stack} className={styles.tagProjeto}>
+                                        {stack}
+                                    </span>
+                                ))}
+                            </div>
                         </article>
                     ))}
                 </div>
