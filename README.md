@@ -1,7 +1,9 @@
 # Bruno Loureiro | Portfólio Full Stack
 
 <p align="center">
-  <a href="https://glittering-beignet-c7f54e.netlify.app/">Acessar portfólio publicado</a>
+  <a href="https://glittering-beignet-c7f54e.netlify.app/">
+    <img src="https://img.shields.io/badge/Acessar_Portf%C3%B3lio-Publicado-0D4782?style=for-the-badge&logo=netlify&logoColor=white&labelColor=041833" alt="Acessar portfólio publicado" />
+  </a>
 </p>
 
 <p align="center">
