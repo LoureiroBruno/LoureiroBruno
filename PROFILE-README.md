@@ -68,9 +68,9 @@ Sou desenvolvedor full stack e gosto de construir produtos com foco em:
 
 ## Projeto em destaque
 
-### Olá Mundo
+### Portfólio Full Stack
 
-Blog pessoal desenvolvido em React com banner personalizado, grid de posts ilustrados e páginas de detalhe em Markdown.
+Portfólio pessoal desenvolvido em React com banner profissional, grid de posts ilustrados e páginas de detalhe em Markdown.
 
 - Repositório: https://github.com/LoureiroBruno/ola-mundo
 - Deploy: https://main--glowing-toffee-24fc65.netlify.app/

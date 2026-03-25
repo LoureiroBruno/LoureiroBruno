@@ -1,7 +1,7 @@
-# Olá Mundo
+# Bruno Loureiro | Portfólio Full Stack
 
 <p align="center">
-  <a href="https://main--glowing-toffee-24fc65.netlify.app/">Acessar projeto publicado</a>
+  <a href="https://main--glowing-toffee-24fc65.netlify.app/">Acessar portfólio publicado</a>
 </p>
 
 <p align="center">
@@ -14,17 +14,17 @@
 
 ## Sobre o projeto
 
-O **Olá Mundo** é um blog pessoal desenvolvido em **React** e publicado no **Netlify**. A aplicação apresenta uma home com banner redesenhado, listagem de posts em formato de cards ilustrados, página "Sobre Mim" e páginas de detalhe com conteúdo renderizado em Markdown.
+Este repositório reúne o **portfólio pessoal de Bruno Loureiro**, desenvolvido em **React** e publicado no **Netlify**. A aplicação apresenta uma home com banner de apresentação profissional, listagem de posts em formato de cards ilustrados, página "Sobre Mim" e páginas de detalhe com conteúdo renderizado em Markdown.
 
-Além de servir como vitrine do projeto, a aplicação demonstra uma estrutura organizada para componentes reutilizáveis, roteamento no cliente e construção de interface responsiva.
+Além de funcionar como vitrine profissional, a aplicação demonstra uma estrutura organizada para componentes reutilizáveis, roteamento no cliente e construção de interface responsiva.
 
 ## Preview
 
 As imagens abaixo foram capturadas da versão publicada do projeto:
 
 <p align="center">
-  <img src="docs/images/ola-mundo-desktop.png" alt="Preview desktop do projeto Olá Mundo" width="72%" />
-  <img src="docs/images/ola-mundo-mobile.png" alt="Preview mobile do projeto Olá Mundo" width="22%" />
+  <img src="docs/images/ola-mundo-desktop.png" alt="Preview desktop do portfólio Bruno Loureiro" width="72%" />
+  <img src="docs/images/ola-mundo-mobile.png" alt="Preview mobile do portfólio Bruno Loureiro" width="22%" />
 </p>
 
 ## Funcionalidades
