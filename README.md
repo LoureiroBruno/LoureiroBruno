@@ -6,20 +6,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Badge React" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" alt="Badge JavaScript" />
-  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white" alt="Badge React Router" />
-  <img src="https://img.shields.io/badge/CSS_Modules-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Badge CSS Modules" />
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Badge Netlify" />
-</p>
-
-## Sobre o projeto
-
-Este repositório reúne o **portfólio pessoal de Bruno Loureiro**, desenvolvido em **React** e publicado no **Netlify**. A aplicação apresenta uma home com banner de apresentação profissional, listagem de posts em formato de cards ilustrados, página "Sobre Mim" e páginas de detalhe com conteúdo renderizado em Markdown.
-
-Além de funcionar como vitrine profissional, a aplicação demonstra uma estrutura organizada para componentes reutilizáveis, roteamento no cliente e construção de interface responsiva.
-
 ## Conhecimentos complementares
 
 Além das tecnologias usadas neste projeto, este README também destaca conhecimentos complementares do autor:
