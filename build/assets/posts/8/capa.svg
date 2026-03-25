@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.5" stop-color="#1f2937"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 110) rotate(90) scale(140 240)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 120) rotate(90) scale(170 200)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)" opacity="0.72"/>
+  <rect width="1200" height="630" fill="url(#glowB)" opacity="0.7"/>
+  <text x="54" y="331" fill="white" font-family="Georgia, serif" font-size="84" font-weight="700">Svelte x React</text>
+  <text x="54" y="388" fill="#FFFFFF" fill-opacity="0.95" font-family="Arial, sans-serif" font-size="34" font-weight="500">comparando abordagens de interface</text>
+  <text x="54" y="578" fill="#FFFFFF" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2.4">OLA-MUNDO</text>
+  <rect x="662" y="49" width="483" height="533" rx="36" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <g transform="translate(705 112)">
+    
+      <circle cx="146" cy="190" r="84" fill="#f97316" opacity="0.96"/>
+      <path d="M106 146 C106 124 126 112 150 112 C178 112 194 126 194 144 C194 172 164 172 142 176 C126 178 120 184 120 194 C120 206 132 214 150 214 C170 214 182 206 190 194" stroke="#fff7ed" stroke-width="16" stroke-linecap="round" fill="none"/>
+      <circle cx="314" cy="190" r="16" fill="#93c5fd"/>
+      <ellipse cx="314" cy="190" rx="86" ry="30" stroke="#93c5fd" stroke-width="10" fill="none"/>
+      <ellipse cx="314" cy="190" rx="86" ry="30" stroke="#93c5fd" stroke-width="10" fill="none" transform="rotate(60 314 190)"/>
+      <ellipse cx="314" cy="190" rx="86" ry="30" stroke="#93c5fd" stroke-width="10" fill="none" transform="rotate(-60 314 190)"/>
+      <text x="214" y="328" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="28" font-weight="700">Svelte</text>
+      <text x="372" y="328" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="28" font-weight="700">React</text>
+    
+  </g>
+</svg>

@@ -11,14 +11,14 @@ export default function Banner () {
     return (
         <section className={styles.banner}>
             <div className={styles.apresentacao}>
-                <span className={styles.selo}>Portfolio Full Stack</span>
+                <span className={styles.selo}>Portfólio Full Stack</span>
 
-                <h1 className={styles.titulo}>Olá, Mundo!</h1>
+                <h1 className={styles.titulo}>Bruno Loureiro</h1>
 
                 <p className={styles.paragrafo}>
-                    Boas-vindas ao meu espaço pessoal. Eu sou Bruno Loureiro, desenvolvedor full stack,
-                    e uso este projeto para reunir estudos, prática de interface e conteúdos sobre
-                    front-end, Java e infraestrutura moderna.
+                    Desenvolvedor full stack com foco em interfaces modernas, aplicações em Java
+                    e infraestrutura orientada a performance. Este espaço reúne projetos, estudos
+                    e referências sobre front-end, back-end e evolução contínua.
                 </p>
 
                 <div className={styles.tags}>

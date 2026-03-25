@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071b12"/>
+      <stop offset="0.5" stop-color="#166534"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 110) rotate(90) scale(140 240)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 120) rotate(90) scale(170 200)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)" opacity="0.72"/>
+  <rect width="1200" height="630" fill="url(#glowB)" opacity="0.7"/>
+  <text x="54" y="331" fill="white" font-family="Georgia, serif" font-size="84" font-weight="700">Node.js</text>
+  <text x="54" y="388" fill="#FFFFFF" fill-opacity="0.95" font-family="Arial, sans-serif" font-size="34" font-weight="500">runtime e backend JavaScript</text>
+  <text x="54" y="578" fill="#FFFFFF" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2.4">OLA-MUNDO</text>
+  <rect x="662" y="49" width="483" height="533" rx="36" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <g transform="translate(705 112)">
+    
+      <polygon points="230,62 326,118 326,230 230,286 134,230 134,118" fill="#dcfce7" opacity="0.95"/>
+      <polygon points="230,88 300,128 300,220 230,260 160,220 160,128" fill="#166534" opacity="0.96"/>
+      <text x="202" y="182" fill="#ecfdf5" font-family="Arial, sans-serif" font-size="42" font-weight="700">JS</text>
+      <g stroke="#bbf7d0" stroke-width="8" stroke-linecap="round" opacity="0.92">
+        <line x1="230" y1="62" x2="230" y2="28"/>
+        <line x1="326" y1="118" x2="362" y2="96"/>
+        <line x1="326" y1="230" x2="362" y2="252"/>
+        <line x1="134" y1="230" x2="98" y2="252"/>
+        <line x1="134" y1="118" x2="98" y2="96"/>
+      </g>
+      <g fill="#dcfce7">
+        <circle cx="230" cy="24" r="14"/>
+        <circle cx="370" cy="92" r="14"/>
+        <circle cx="370" cy="256" r="14"/>
+        <circle cx="90" cy="256" r="14"/>
+        <circle cx="90" cy="92" r="14"/>
+      </g>
+    
+  </g>
+</svg>

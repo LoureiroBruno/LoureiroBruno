@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="0.5" stop-color="#0369a1"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 110) rotate(90) scale(140 240)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 120) rotate(90) scale(170 200)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)" opacity="0.72"/>
+  <rect width="1200" height="630" fill="url(#glowB)" opacity="0.7"/>
+  <text x="54" y="331" fill="white" font-family="Georgia, serif" font-size="84" font-weight="700">Scrum</text>
+  <text x="54" y="388" fill="#FFFFFF" fill-opacity="0.95" font-family="Arial, sans-serif" font-size="34" font-weight="500">agilidade no dia a dia</text>
+  <text x="54" y="578" fill="#FFFFFF" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2.4">OLA-MUNDO</text>
+  <rect x="662" y="49" width="483" height="533" rx="36" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <g transform="translate(705 112)">
+    
+      <rect x="54" y="98" width="316" height="210" rx="28" fill="#eff6ff" opacity="0.96"/>
+      <line x1="160" y1="122" x2="160" y2="284" stroke="#bfdbfe" stroke-width="6"/>
+      <line x1="266" y1="122" x2="266" y2="284" stroke="#bfdbfe" stroke-width="6"/>
+      <rect x="78" y="134" width="54" height="64" rx="12" fill="#f59e0b"/>
+      <rect x="184" y="146" width="54" height="72" rx="12" fill="#34d399"/>
+      <rect x="290" y="138" width="54" height="56" rx="12" fill="#60a5fa"/>
+      <rect x="86" y="214" width="42" height="42" rx="10" fill="#fcd34d"/>
+      <rect x="188" y="236" width="42" height="30" rx="10" fill="#6ee7b7"/>
+      <rect x="300" y="214" width="34" height="52" rx="10" fill="#93c5fd"/>
+      <circle cx="404" cy="152" r="32" fill="#dbeafe" opacity="0.94"/>
+      <circle cx="448" cy="214" r="32" fill="#bfdbfe" opacity="0.94"/>
+      <circle cx="382" cy="236" r="24" fill="#93c5fd" opacity="0.9"/>
+      <path d="M390 282 C404 260 434 260 448 282" stroke="#e0f2fe" stroke-width="8" stroke-linecap="round" fill="none"/>
+      <path d="M358 272 C366 258 386 258 394 272" stroke="#dbeafe" stroke-width="7" stroke-linecap="round" fill="none"/>
+    
+  </g>
+</svg>

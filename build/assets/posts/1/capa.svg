@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#091833"/>
+      <stop offset="0.5" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 110) rotate(90) scale(140 240)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 120) rotate(90) scale(170 200)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)" opacity="0.72"/>
+  <rect width="1200" height="630" fill="url(#glowB)" opacity="0.7"/>
+  <text x="54" y="331" fill="white" font-family="Georgia, serif" font-size="84" font-weight="700">Python</text>
+  <text x="54" y="388" fill="#FFFFFF" fill-opacity="0.95" font-family="Arial, sans-serif" font-size="34" font-weight="500">origem do nome</text>
+  <text x="54" y="578" fill="#FFFFFF" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2.4">OLA-MUNDO</text>
+  <rect x="662" y="49" width="483" height="533" rx="36" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <g transform="translate(705 112)">
+    
+      <path d="M152 78 H278 C318 78 346 106 346 146 V184 H228 C198 184 180 200 180 226 V252 H96 C64 252 44 232 44 200 V170 C44 114 88 78 152 78 Z" fill="#3b82f6"/>
+      <circle cx="272" cy="120" r="8" fill="#e0f2fe"/>
+      <path d="M308 286 H182 C142 286 114 258 114 218 V180 H232 C262 180 280 164 280 138 V112 H364 C396 112 416 132 416 164 V194 C416 250 372 286 308 286 Z" fill="#fbbf24"/>
+      <circle cx="188" cy="244" r="8" fill="#fef3c7"/>
+      <rect x="108" y="314" width="250" height="18" rx="9" fill="#dbeafe" fill-opacity="0.42"/>
+      <rect x="138" y="346" width="190" height="12" rx="6" fill="#fde68a" fill-opacity="0.45"/>
+    
+  </g>
+</svg>

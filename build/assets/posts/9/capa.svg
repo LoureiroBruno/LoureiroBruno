@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#061b3a"/>
+      <stop offset="0.5" stop-color="#0c4a8a"/>
+      <stop offset="1" stop-color="#1d8cf8"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 110) rotate(90) scale(140 240)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 120) rotate(90) scale(170 200)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)" opacity="0.72"/>
+  <rect width="1200" height="630" fill="url(#glowB)" opacity="0.7"/>
+  <text x="54" y="331" fill="white" font-family="Georgia, serif" font-size="84" font-weight="700">Docker</text>
+  <text x="54" y="388" fill="#FFFFFF" fill-opacity="0.95" font-family="Arial, sans-serif" font-size="34" font-weight="500">containers e padronizacao</text>
+  <text x="54" y="578" fill="#FFFFFF" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2.4">OLA-MUNDO</text>
+  <rect x="662" y="49" width="483" height="533" rx="36" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <g transform="translate(705 112)">
+    
+      <rect x="78" y="84" width="210" height="54" rx="16" fill="#e5f4ff" opacity="0.95"/>
+      <rect x="98" y="98" width="50" height="12" rx="6" fill="#0f172a" opacity="0.14"/>
+      <rect x="98" y="118" width="34" height="8" rx="4" fill="#0f172a" opacity="0.12"/>
+      <rect x="154" y="98" width="50" height="12" rx="6" fill="#0f172a" opacity="0.14"/>
+      <rect x="154" y="118" width="34" height="8" rx="4" fill="#0f172a" opacity="0.12"/>
+      <rect x="210" y="98" width="50" height="12" rx="6" fill="#0f172a" opacity="0.14"/>
+      <rect x="210" y="118" width="34" height="8" rx="4" fill="#0f172a" opacity="0.12"/>
+      <rect x="116" y="152" width="210" height="54" rx="16" fill="#d2ecff" opacity="0.95"/>
+      <rect x="136" y="166" width="50" height="12" rx="6" fill="#0f172a" opacity="0.14"/>
+      <rect x="136" y="186" width="34" height="8" rx="4" fill="#0f172a" opacity="0.12"/>
+      <rect x="192" y="166" width="50" height="12" rx="6" fill="#0f172a" opacity="0.14"/>
+      <rect x="192" y="186" width="34" height="8" rx="4" fill="#0f172a" opacity="0.12"/>
+      <rect x="248" y="166" width="50" height="12" rx="6" fill="#0f172a" opacity="0.14"/>
+      <rect x="248" y="186" width="34" height="8" rx="4" fill="#0f172a" opacity="0.12"/>
+      <path d="M86 252 C110 228 150 224 180 236 L265 236 C292 236 316 252 322 278 L336 278 C344 278 350 284 350 292 C350 300 344 306 336 306 L110 306 C88 306 68 289 68 268 C68 262 74 256 86 252 Z" fill="#0f172a" opacity="0.88"/>
+      <circle cx="110" cy="322" r="10" fill="#cde9ff" opacity="0.78"/>
+      <circle cx="145" cy="334" r="6" fill="#cde9ff" opacity="0.62"/>
+      <path d="M58 344 C98 326 130 362 168 344 C194 332 224 354 256 344 C286 334 314 354 346 344" stroke="#dbeafe" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.72"/>
+    
+  </g>
+</svg>

@@ -63,7 +63,8 @@
     font-size: clamp(3.7rem, 7vw, 5.8rem);
     line-height: .95;
     margin: 0 0 1.2rem;
-    max-width: 9ch;
+    max-width: none;
+    white-space: nowrap;
 }
 
 .paragrafo {
@@ -280,6 +281,7 @@
     .titulo {
         font-size: clamp(2.9rem, 17vw, 4rem);
         margin-bottom: 1rem;
+        white-space: normal;
     }
 
     .paragrafo {
