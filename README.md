@@ -20,15 +20,6 @@ Este repositório reúne o **portfólio pessoal de Bruno Loureiro**, desenvolvid
 
 Além de funcionar como vitrine profissional, a aplicação demonstra uma estrutura organizada para componentes reutilizáveis, roteamento no cliente e construção de interface responsiva.
 
-## Preview
-
-Visual atual do portfólio:
-
-<p align="center">
-  <img src="docs/images/ola-mundo-desktop.png" alt="Preview desktop do portfólio Bruno Loureiro" width="72%" />
-  <img src="docs/images/ola-mundo-mobile.png" alt="Preview mobile do portfólio Bruno Loureiro" width="22%" />
-</p>
-
 ## Conhecimentos complementares
 
 Além das tecnologias usadas neste projeto, este README também destaca conhecimentos complementares do autor:
