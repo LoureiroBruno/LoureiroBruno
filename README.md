@@ -82,13 +82,13 @@ Além das tecnologias usadas neste projeto, este README também destaca conhecim
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/LoureiroBruno/ola-mundo.git
+   git clone https://github.com/LoureiroBruno/LoureiroBruno.git
    ```
 
 2. Acesse a pasta do projeto:
 
    ```bash
-   cd ola-mundo
+   cd LoureiroBruno
    ```
 
 3. Instale as dependências:
