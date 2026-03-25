@@ -34,25 +34,29 @@ export default function Post() {
             <Route path="*" element={<PaginaPadrao />}>
                 <Route index element={
                     <PostModelo 
-                        fotoCapa={getPostCover(post.id)} titulo={post.titulo} 
+                        fotoCapa={getPostCover(post.id)}
+                        titulo={post.titulo}
+                        conteudoExtra={
+                            <>
+                                <h2 className={styles.tituloOutrosPosts}>
+                                    Outros posts que você pode gostar:
+                                </h2>
+
+                                <ul className={styles.postsRecomendados}>
+                                    {postsRecomnedados.map((post) => (
+                                        <li key={post.id} className={styles.postRecomendadoItem}>
+                                            <PostCard post={post}/>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </>
+                        }
                     >
                         <div className="post-markdown-container">
                             <ReactMarkdown>
                                     {post.texto}
                             </ReactMarkdown>
                         </div>
-
-                        <h2 className={styles.tituloOutrosPosts}>
-                            Outros posts que você pode gostar:
-                        </h2>
-
-                        <ul className={styles.postsRecomendados}>
-                            {postsRecomnedados.map( (post) => (
-                                <li key={post.id}>
-                                    <PostCard post={post}/>
-                                </li>
-                            )) }
-                        </ul>
 
                     </PostModelo>
                 }/>

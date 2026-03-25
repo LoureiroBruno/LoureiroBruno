@@ -1,6 +1,6 @@
 import styles from './PostModelo.module.css';
 
-export default function PostModelo({ fotoCapa, titulo, children }) {
+export default function PostModelo({ fotoCapa, titulo, children, conteudoExtra }) {
     return (
         <article className={styles.postModeloContainer}>
         
@@ -13,6 +13,12 @@ export default function PostModelo({ fotoCapa, titulo, children }) {
             <div className={styles.postConteudoContainer}>
                 {children}
             </div>
+
+            {conteudoExtra ? (
+                <div className={styles.conteudoComplementarContainer}>
+                    {conteudoExtra}
+                </div>
+            ) : null}
         </article>
     )
 }

@@ -1,21 +1,85 @@
-.posts {
-    padding: 0 6vw 3.625rem;
+.secoes {
+    width: min(1180px, calc(100% - 3rem));
+    margin: 1.75rem auto 0;
+    padding: 0 0 4rem;
+}
+
+.secao + .secao {
+    margin-top: 3rem;
+}
+
+.secaoCabecalho {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .55rem;
+    margin-bottom: 1.4rem;
+}
+
+.secaoSelo {
+    display: inline-flex;
+    align-items: center;
+    padding: .45rem .85rem;
+    border-radius: 999px;
+    background: rgba(24, 117, 232, 0.08);
+    border: 1px solid rgba(24, 117, 232, 0.12);
+    color: var(--azul-medio);
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+}
+
+.secaoTitulo {
+    color: var(--azul-escuro);
+    font-family: var(--fonte-secundaria);
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    line-height: 1.05;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 1.75rem;
+    align-items: stretch;
+}
+
+.item {
+    min-width: 0;
 }
  
 @media (max-width: 1100px) {
-    .posts {
+    .secoes {
+        width: min(100%, calc(100% - 3rem));
         margin-top: 0;
-        padding: 2rem 1.5rem 3.625rem;
+        padding: 2rem 0 3.625rem;
+    }
+
+    .secao + .secao {
+        margin-top: 2.5rem;
     }
 }
  
 @media (max-width: 744px) {
+    .secoes {
+        width: min(100%, calc(100% - 2rem));
+        padding: 2rem 0 3rem;
+    }
+
+    .secao + .secao {
+        margin-top: 2rem;
+    }
+
+    .secaoCabecalho {
+        margin-bottom: 1.1rem;
+    }
+
+    .secaoTitulo {
+        font-size: 1.7rem;
+    }
+
     .posts {
-        padding: 2rem 1rem 3rem;
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
     }
 }

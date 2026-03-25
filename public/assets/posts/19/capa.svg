@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1f1533"/>
+      <stop offset="0.5" stop-color="#5b21b6"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 110) rotate(90) scale(140 240)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)" opacity="0.72"/>
+  <text x="54" y="331" fill="white" font-family="Georgia, serif" font-size="84" font-weight="700">XP</text>
+  <text x="54" y="388" fill="#FFFFFF" fill-opacity="0.95" font-family="Arial, sans-serif" font-size="34" font-weight="500">qualidade, testes e feedback rapido</text>
+  <text x="54" y="578" fill="#FFFFFF" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2.4">OLA-MUNDO</text>
+  <rect x="662" y="49" width="483" height="533" rx="36" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <g transform="translate(708 104)">
+    <rect x="44" y="80" width="288" height="202" rx="28" fill="#f5f3ff" fill-opacity="0.96"/>
+    <rect x="66" y="112" width="116" height="16" rx="8" fill="#8b5cf6" fill-opacity="0.78"/>
+    <rect x="66" y="146" width="148" height="16" rx="8" fill="#a78bfa" fill-opacity="0.62"/>
+    <rect x="66" y="180" width="96" height="16" rx="8" fill="#c4b5fd" fill-opacity="0.88"/>
+    <rect x="66" y="214" width="164" height="16" rx="8" fill="#ddd6fe" fill-opacity="0.94"/>
+    <circle cx="360" cy="142" r="42" fill="#ede9fe" fill-opacity="0.95"/>
+    <path d="M344 142 l12 12 l24 -28" stroke="#5b21b6" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="138" cy="352" r="38" fill="#ddd6fe"/>
+    <circle cx="238" cy="352" r="38" fill="#c4b5fd"/>
+    <path d="M176 352 H200" stroke="#f5f3ff" stroke-width="12" stroke-linecap="round"/>
+    <path d="M118 322 L158 382" stroke="#5b21b6" stroke-width="10" stroke-linecap="round"/>
+    <path d="M158 322 L118 382" stroke="#5b21b6" stroke-width="10" stroke-linecap="round"/>
+    <path d="M218 322 L258 382" stroke="#7c3aed" stroke-width="10" stroke-linecap="round"/>
+    <path d="M258 322 L218 382" stroke="#7c3aed" stroke-width="10" stroke-linecap="round"/>
+    <path d="M268 352 H316" stroke="#ede9fe" stroke-width="12" stroke-linecap="round"/>
+    <path d="M304 336 L320 352 L304 368" stroke="#ede9fe" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

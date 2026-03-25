@@ -1,6 +1,9 @@
 .postModeloContainer {
     color: var(--cor-fonte-post);
     position: relative;
+    padding-bottom: 4.5rem;
+    background:
+        radial-gradient(circle at 50% 0%, rgba(138, 215, 255, 0.18), transparent 34%);
 }
 
 .fotoCapa,
@@ -11,8 +14,10 @@
 .fotoCapa {
     width: 100%;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.3;
+    opacity: 0.22;
+    filter: saturate(1.05);
     position: absolute;
     top: 0;
     z-index: -1;
@@ -20,35 +25,140 @@
 
 .titulo {
     font-family: var(--fonte-secundaria);
-    padding: 0 7.5rem;
-    font-size: 4rem;
+    width: min(1120px, calc(100% - 3rem));
+    margin: 0 auto;
+    padding: 0 2.5rem;
+    font-size: clamp(2.8rem, 5vw, 4rem);
+    line-height: 1.05;
     display: flex;
     align-items: center;
+    color: #2f292a;
+    text-shadow: 0 6px 20px rgba(255, 255, 255, 0.35);
 }
 
 .postConteudoContainer {
-    padding: 2.5rem 7.5rem 4.5rem;
+    position: relative;
+    z-index: 1;
+    width: min(1120px, calc(100% - 3rem));
+    margin: -1.5rem auto 0;
+    padding: 2.5rem 2.5rem 4rem;
+    border-radius: 2rem;
+    border: 1px solid rgba(24, 117, 232, 0.12);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.97) 0%, rgba(246, 250, 255, 0.98) 100%);
+    box-shadow: 0 28px 70px rgba(4, 24, 51, 0.10);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
 }
 
-@media (max-width: 744px) {
+.postConteudoContainer::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 6px;
+    background: linear-gradient(90deg, rgba(138, 215, 255, 0.55), rgba(47, 143, 255, 0.4), rgba(138, 215, 255, 0.55));
+    pointer-events: none;
+}
+
+.postConteudoContainer::after {
+    content: "";
+    position: absolute;
+    top: -6rem;
+    right: -5rem;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(138, 215, 255, 0.18), transparent 70%);
+    pointer-events: none;
+}
+
+.conteudoComplementarContainer {
+    position: relative;
+    width: min(1120px, calc(100% - 3rem));
+    margin: 2.4rem auto 0;
+    padding: 2rem 2.5rem 2.75rem;
+    border-radius: 2rem;
+    border: 1px solid rgba(24, 117, 232, 0.12);
+    background:
+        radial-gradient(circle at 12% 16%, rgba(138, 215, 255, 0.16), transparent 22%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(244, 248, 255, 0.98) 100%);
+    box-shadow: 0 22px 56px rgba(4, 24, 51, 0.08);
+    overflow: hidden;
+}
+
+.conteudoComplementarContainer::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 5px;
+    background: linear-gradient(90deg, rgba(24, 117, 232, 0.18), rgba(24, 117, 232, 0.5), rgba(24, 117, 232, 0.18));
+    pointer-events: none;
+}
+
+.conteudoComplementarContainer::after {
+    content: "";
+    position: absolute;
+    top: -4.5rem;
+    right: -4rem;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(138, 215, 255, 0.18), transparent 72%);
+    pointer-events: none;
+}
+
+@media (max-width: 1100px) {
+    .titulo {
+        width: min(100%, calc(100% - 3rem));
+        padding: 0 2rem;
+    }
+
     .postConteudoContainer {
-        padding: 2rem 1.5rem 1.5rem;
+        width: min(100%, calc(100% - 3rem));
+        padding: 2rem 2rem 3rem;
+    }
+
+    .conteudoComplementarContainer {
+        width: min(100%, calc(100% - 3rem));
+        padding: 1.75rem 2rem 2.4rem;
     }
 }
 
 @media (max-width: 744px) {
+    .postModeloContainer {
+        padding-bottom: 2rem;
+    }
 
     .fotoCapa,
     .titulo {
-        height: 104px;
+        height: 124px;
     }
 
     .titulo {
+        width: min(100%, calc(100% - 2rem));
         padding: 0 1rem;
         font-size: 2rem;
+        line-height: 1.05;
     }
 
     .postConteudoContainer {
-        padding: 2rem 1rem 1.5rem;
+        width: min(100%, calc(100% - 2rem));
+        margin-top: -.75rem;
+        padding: 1.5rem 1.1rem 2rem;
+        border-radius: 1.35rem;
+    }
+
+    .postConteudoContainer::before {
+        height: 5px;
+    }
+
+    .conteudoComplementarContainer {
+        width: min(100%, calc(100% - 2rem));
+        margin-top: 1.5rem;
+        padding: 1.35rem 1.1rem 1.75rem;
+        border-radius: 1.35rem;
+    }
+
+    .conteudoComplementarContainer::before {
+        height: 4px;
     }
 }

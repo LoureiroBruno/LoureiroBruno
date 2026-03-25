@@ -40,8 +40,8 @@ const conhecimentos = [
         itens: ["Jenkins", "GitHub Actions", "Versionamento com Git"]
     },
     {
-        categoria: "Métodos de trabalho",
-        itens: ["Scrum", "Trabalho em equipe", "Entrega contínua"]
+        categoria: "Metodologias ágeis e práticas",
+        itens: ["Scrum", "Kanban", "XP", "Lean", "Entrega contínua"]
     }
 ];
 
@@ -114,7 +114,12 @@ export default function SobreMim() {
             </p>
 
             <section className={styles.secaoConhecimentos}>
-                <h4 className={styles.tituloConhecimentos}>Conhecimentos e tecnologias</h4>
+                <h4 className={styles.tituloConhecimentos}>Conhecimentos adquiridos ao longo da carreira</h4>
+                <p className={styles.descricaoConhecimentos}>
+                    Abaixo estão tecnologias, ferramentas e práticas que fazem parte da minha trajetória
+                    profissional em TI, construída entre infraestrutura, suporte, desenvolvimento de
+                    software e evolução contínua de produtos.
+                </p>
 
                 <div className={styles.cardsConhecimentos}>
                     {conhecimentos.map((grupo) => (

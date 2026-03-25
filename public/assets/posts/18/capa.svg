@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#155e75"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 110) rotate(90) scale(150 250)">
+      <stop stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glowA)" opacity="0.72"/>
+  <text x="54" y="331" fill="white" font-family="Georgia, serif" font-size="84" font-weight="700">Kanban</text>
+  <text x="54" y="388" fill="#FFFFFF" fill-opacity="0.95" font-family="Arial, sans-serif" font-size="34" font-weight="500">fluxo visual e melhoria continua</text>
+  <text x="54" y="578" fill="#FFFFFF" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="2.4">OLA-MUNDO</text>
+  <rect x="662" y="49" width="483" height="533" rx="36" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.18"/>
+  <g transform="translate(728 116)">
+    <rect x="0" y="0" width="354" height="392" rx="28" fill="#ecfeff" fill-opacity="0.16"/>
+    <rect x="26" y="42" width="90" height="300" rx="24" fill="#cffafe" fill-opacity="0.94"/>
+    <rect x="132" y="42" width="90" height="300" rx="24" fill="#a5f3fc" fill-opacity="0.9"/>
+    <rect x="238" y="42" width="90" height="300" rx="24" fill="#67e8f9" fill-opacity="0.85"/>
+    <rect x="42" y="80" width="58" height="48" rx="12" fill="#0891b2"/>
+    <rect x="42" y="148" width="58" height="36" rx="12" fill="#06b6d4"/>
+    <rect x="148" y="88" width="58" height="62" rx="12" fill="#0ea5e9"/>
+    <rect x="148" y="168" width="58" height="44" rx="12" fill="#38bdf8"/>
+    <rect x="254" y="102" width="58" height="52" rx="12" fill="#2563eb"/>
+    <rect x="254" y="176" width="58" height="74" rx="12" fill="#60a5fa"/>
+    <circle cx="84" cy="368" r="18" fill="#ecfeff"/>
+    <circle cx="178" cy="368" r="18" fill="#cffafe"/>
+    <circle cx="272" cy="368" r="18" fill="#a5f3fc"/>
+  </g>
+</svg>
