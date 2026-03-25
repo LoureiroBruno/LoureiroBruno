@@ -66,8 +66,16 @@ const projetos = [
             "Exportação e alimentação de dados para os painéis CISEC voltados à transparência e à tomada de decisão.",
             "Base preparada para evolução funcional, acompanhando novas necessidades da instituição e a expansão do sistema para outros contextos acadêmicos e operacionais."
         ],
-        linkLabel: "Painéis CISEC",
-        linkUrl: "https://cisec.esp.ce.gov.br/",
+        links: [
+            {
+                label: "Painéis CISEC",
+                url: "https://cisec.esp.ce.gov.br/"
+            },
+            {
+                label: "Matéria da ESP/CE",
+                url: "https://www.esp.ce.gov.br/2025/11/14/esp-ce-aprimora-sistema-de-inscricoes-em-eventos-e-cursos-da-instituicao/"
+            }
+        ],
         stacks: ["Laravel", "Node.js", "APIs REST", "MySQL", "Docker"]
     },
     {
@@ -104,6 +112,37 @@ const projetos = [
             "Redução do tempo de resposta das equipes de suporte em rotinas operacionais."
         ],
         stacks: ["Laravel", "Docker", "Auditoria", "Controle de acesso"]
+    },
+    {
+        titulo: "Módulo de Elaboração de Ficha Catalográfica",
+        organizacao: "Escola de Saúde Pública do Ceará",
+        descricao: [
+            "Participei do desenvolvimento do formulário on-line de elaboração de ficha catalográfica da Escola de Saúde Pública do Ceará, disponibilizado para apoiar a produção acadêmica da instituição por meio da geração automatizada da ficha em PDF, já normalizada e pronta para download ou impressão.",
+            "O módulo foi desenvolvido em parceria com a Biblioteca da ESP/CE, a partir de uma base de código originalmente disponibilizada pela USP, e adaptado para a realidade institucional da Escola.",
+            "Além da necessidade imediata de automatizar esse processo, a solução também foi pensada como um componente com potencial de integração futura a sistemas maiores da instituição, permitindo que esse fluxo possa evoluir e se conectar a outras rotinas acadêmicas e administrativas. Na implementação, utilizei recursos como PHP, Bootstrap, jQuery, Docker e MySQL para estruturar a interface, o comportamento do formulário e o ambiente da solução."
+        ],
+        destaques: [
+            "Formulário web para coleta estruturada dos dados bibliográficos.",
+            "Geração automática da ficha catalográfica em PDF.",
+            "Adequação do fluxo às necessidades institucionais da ESP/CE.",
+            "Apoio à biblioteca e à comunidade acadêmica com mais agilidade e padronização."
+        ],
+        resultados: [
+            "Redução de esforço manual na elaboração da ficha catalográfica.",
+            "Melhoria na padronização do processo e no atendimento às demandas acadêmicas.",
+            "Base preparada para futura integração com outros sistemas da instituição."
+        ],
+        links: [
+            {
+                label: "Formulário de ficha catalográfica",
+                url: "https://ficha.esp.ce.gov.br/"
+            },
+            {
+                label: "Matéria da ESP/CE",
+                url: "https://www.esp.ce.gov.br/2019/01/11/besp/"
+            }
+        ],
+        stacks: ["PHP", "Bootstrap", "jQuery", "Docker", "MySQL"]
     }
 ];
 
@@ -133,7 +172,7 @@ export default function SobreMim() {
                 e FTP, além de implantação e configuração de roteadores e ambientes corporativos.
             </p>
             <p className={styles.paragrafo}>
-                Em 2018, direcionei minha carreira para a área de desenvolvimento de software, passando
+                Em 2020, direcionei minha carreira para a área de desenvolvimento de software, passando
                 a atuar na construção de aplicações, evolução de sistemas e melhoria contínua de processos
                 tecnológicos.
             </p>
@@ -250,17 +289,21 @@ export default function SobreMim() {
                                 </div>
                             ) : null}
 
-                            {projeto.linkUrl ? (
-                                <p className={styles.linkProjetoLinha}>
-                                    <a
-                                        className={styles.linkProjeto}
-                                        href={projeto.linkUrl}
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        {projeto.linkLabel}
-                                    </a>
-                                </p>
+                            {projeto.links ? (
+                                <div className={styles.linksProjeto}>
+                                    {projeto.links.map((link) => (
+                                        <p key={link.url} className={styles.linkProjetoLinha}>
+                                            <a
+                                                className={styles.linkProjeto}
+                                                href={link.url}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                            >
+                                                {link.label}
+                                            </a>
+                                        </p>
+                                    ))}
+                                </div>
                             ) : null}
 
                             <div className={styles.tagsProjeto}>

@@ -11,6 +11,7 @@
 }
 
 .paragrafo {
+    font-family: var(--fonte-texto-destaque);
     text-align: justify;
     font-size: 1.5rem;
     line-height: 2.25rem;
@@ -196,8 +197,15 @@
     background: var(--azul-medio);
 }
 
-.linkProjetoLinha {
+.linksProjeto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.25rem;
     margin-top: 1.2rem;
+}
+
+.linkProjetoLinha {
+    margin: 0;
 }
 
 .linkProjeto {
