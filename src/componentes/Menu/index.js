@@ -18,8 +18,8 @@ export default function Menu() {
                 <div className={styles.links}>
                     <MenuLink to="/">Início</MenuLink>
                     <MenuLink to="/sobremim">Sobre Mim</MenuLink>
-                    <MenuLink to="/conhecimentos">Conhecimentos</MenuLink>
-                    <MenuLink to="/projetos">Projetos</MenuLink>
+                    <MenuLink to="/conhecimentos">Minhas Experiências</MenuLink>
+                    <MenuLink to="/projetos">Meus Projetos</MenuLink>
                 </div>
             </nav>
         </header>

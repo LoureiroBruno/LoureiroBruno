@@ -6,7 +6,7 @@ import { secaoConhecimentos } from "./conteudo";
 
 export default function Conhecimentos() {
     return (
-        <PostModelo fotoCapa={fotoCapa} titulo="Conhecimentos">
+        <PostModelo fotoCapa={fotoCapa} titulo="Minhas Experiências">
             <section>
                 <div className={styles.cabecalhoConhecimentos}>
                     <h3 className={styles.tituloConhecimentos}>{secaoConhecimentos.titulo}</h3>
