@@ -3,16 +3,12 @@ import posts from "json/posts.json";
 import circuloColorido from "assets/circulo_colorido.png";
 import minhaFoto from "assets/minha_foto.png";
 
-const stacks = ["React", "Next.js", "Java", "Docker", "CI/CD"];
-
 export default function Banner () {
     const totalPosts = posts.length;
 
     return (
         <section className={styles.banner}>
             <div className={styles.apresentacao}>
-                <span className={styles.selo}>Portfólio Full Stack</span>
-
                 <h1 className={styles.titulo}>Bruno Loureiro</h1>
 
                 <p className={styles.paragrafo}>
@@ -20,14 +16,6 @@ export default function Banner () {
                     modernas e infraestrutura de alta performance. Este espaço apresenta
                     informações sobre mim, meus projetos e minha evolução na tecnologia.
                 </p>
-
-                <div className={styles.tags}>
-                    {stacks.map((stack) => (
-                        <span key={stack} className={styles.tag}>
-                            {stack}
-                        </span>
-                    ))}
-                </div>
 
                 <div className={styles.metricas}>
                     <article className={styles.metrica}>
