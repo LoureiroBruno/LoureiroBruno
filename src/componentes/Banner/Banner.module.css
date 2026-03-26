@@ -5,7 +5,7 @@
     background:
         radial-gradient(circle at 18% 20%, rgba(111, 191, 255, 0.18), transparent 26%),
         radial-gradient(circle at 82% 16%, rgba(255, 255, 255, 0.14), transparent 22%),
-        linear-gradient(120deg, #041833 0%, #08264d 48%, #0d4782 100%);
+        linear-gradient(120deg, #07475a 0%, #083d4d 48%, #0d6d82 100%);
     color: var(--branco);
     display: grid;
     grid-template-columns: minmax(0, 1.05fr) minmax(320px, .95fr);
@@ -93,9 +93,10 @@
 
 .metricas {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr);
     gap: 1rem;
     margin-top: 2rem;
+    max-width: 26rem;
 }
 
 .metrica {

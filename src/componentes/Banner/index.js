@@ -16,9 +16,9 @@ export default function Banner () {
                 <h1 className={styles.titulo}>Bruno Loureiro</h1>
 
                 <p className={styles.paragrafo}>
-                    Desenvolvedor full stack com foco em interfaces modernas, aplicações em Java
-                    e infraestrutura orientada a performance. Este espaço reúne projetos, estudos
-                    e referências sobre front-end, back-end e evolução contínua.
+                    Desenvolvedor com experiência em diferentes linguagens, interfaces
+                    modernas e infraestrutura de alta performance. Este espaço apresenta
+                    informações sobre mim, meus projetos e minha evolução na tecnologia.
                 </p>
 
                 <div className={styles.tags}>
@@ -33,11 +33,6 @@ export default function Banner () {
                     <article className={styles.metrica}>
                         <strong>{totalPosts}+ conteúdos</strong>
                         <span>posts, estudos e referências publicados no projeto</span>
-                    </article>
-
-                    <article className={styles.metrica}>
-                        <strong>React, Java e DevOps</strong>
-                        <span>foco em interfaces, APIs, automação e evolução contínua</span>
                     </article>
                 </div>
             </div>
